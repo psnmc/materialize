@@ -190,7 +190,7 @@
             hideDropdown();
             $(document).off('click.'+ activates.attr('id'));
           });
-        }, 100);
+        }, 50);
       }
 
       function hideDropdown() {
